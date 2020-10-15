@@ -30,4 +30,4 @@
 
 16. SELECT * FROM `staffs` INNER JOIN `bonus` ON staffs.joindate=bonus.bonusdate WHERE bonus.bonusdate LIKE "2016-02%" 
 
-17. 
+17. SELECT * FROM `staffs` INNER JOIN `bonus` ON staffs.joindate=bonus.bonusdate WHERE bonus.bonusdate LIKE "2016-02%" AND staffs.name='Aye Aye'
