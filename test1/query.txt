@@ -21,3 +21,5 @@
 11. SELECT COUNT(*) FROM staffs WHERE deparment_id=3
 
 12.SELECT * FROM `staffs` INNER JOIN `department` ON staffs.deparment_id=department.id WHERE deparment_id=1
+
+13. SELECT * FROM `staffs` LIMIT 5
