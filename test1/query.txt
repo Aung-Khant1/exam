@@ -28,6 +28,6 @@
 
 15. SELECT SUM(salary) FROM staffs
 
-16. SELECT * FROM `staffs` INNER JOIN bonus ON staffs.id=bonus.id WHERE bonus.bonusdate LIKE "2016-02%" 
+16. SELECT * FROM `staffs` INNER JOIN bonus ON staffs.id=bonus.id WHERE bonus.bonusdate LIKE "2016%" 
 
 17. 
