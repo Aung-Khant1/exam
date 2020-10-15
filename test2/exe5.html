@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		
+		alert('if u want to team1 win you have to put the number more than next');
+		var team1 = parseInt(prompt('Team1'));
+		var team2 = parseInt(prompt('Team2'));
+		match(team1,team2);
+		function match(x,y) {
+			var win = 3;
+			var loss = 0;
+			var draw = 1;
+			if (x>y) {
+				x+=win;
+				alert('team1 got 3 marks');
+			} else if (x<y) {
+				y+=win;
+				alert('team2 got 3 marks');
+			}
+			else{
+				x+=draw;
+				y+=draw;
+				alert('Draw so they both got only 1 mark');
+			}
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>
