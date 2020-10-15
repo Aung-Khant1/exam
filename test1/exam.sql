@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Oct 15, 2020 at 12:22 PM
+-- Generation Time: Oct 15, 2020 at 07:44 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -41,8 +41,8 @@ CREATE TABLE `bonus` (
 INSERT INTO `bonus` (`id`, `bonusamount`, `bonusdate`, `staff_id`) VALUES
 (1, 30000, '2020-10-15 09:13:57.000000', 2),
 (2, 40000, '2020-10-15 09:14:37.000000', 3),
-(4, 20000, '2016-02-11 09:16:12.000000', 4),
-(5, 70000, '2016-02-11 09:16:12.000000', 5);
+(4, 20000, '2016-02-10 17:30:00.000000', 4),
+(6, 100000, '2016-03-10 17:30:00.000000', 6);
 
 -- --------------------------------------------------------
 
@@ -88,11 +88,11 @@ INSERT INTO `staffs` (`id`, `idno`, `name`, `fathername`, `salary`, `joindate`, 
 (1, '1231e211', 'Ko Ko', 'U Ba', 120000, '2020-10-15 07:08:35', 1),
 (2, '23231ww2', 'Ma Ma', 'U Cho', 130000, '2020-10-15 07:48:47', 3),
 (3, 'qweqe212313', 'JOJO', 'U JO', 12122211, '2020-10-15 07:48:47', 3),
-(4, 'qweqe212313', 'zozo', 'U zo', 31313313, '2016-02-14 17:30:00', 3),
+(4, 'qweqe212313', 'zozo', 'U zo', 31313313, '2016-02-10 17:30:00', 3),
 (5, 'asdfa1212', 'hoho', 'U ho', 34343434, '2020-10-15 07:48:48', 2),
 (6, 'asdfa1212', 'LOLO', 'U Lo', 7677667, '2020-10-15 07:22:47', 2),
-(7, 'we2323wq', 'Aye Aye', 'U Aung', 100000, '2016-10-15 08:08:07', 3),
-(8, 'wer122', 'uouo', 'uU uouo', 120000, '2016-02-04 09:26:09', 2);
+(7, 'we2323wq', 'Aye Aye', 'U Aung', 100000, '2016-02-10 17:30:00', 3),
+(8, 'wer122', 'uouo', 'uU uouo', 120000, '2016-03-10 17:30:00', 2);
 
 --
 -- Indexes for dumped tables
@@ -124,7 +124,7 @@ ALTER TABLE `staffs`
 -- AUTO_INCREMENT for table `bonus`
 --
 ALTER TABLE `bonus`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `department`
